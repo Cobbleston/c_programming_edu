@@ -1,0 +1,61 @@
+//######################################################
+//Notes_1
+/*
+
+0_HISTORY
+
+-C uses 0 to mean FALSE and not 0 to mean TRUE;
+-C external and static variables are initialized to 0 by default;
+
+C is a general-purpose programming language that was originally designed
+by DENNIS RITCHIE of BELL LABORATORIES and implemented there on a 
+*PDP-11 in 1972. 
+
+*PDP-11 is a series of minicomputers introduced in 1969 by the Digital
+Equipment Corporation (DEC). Made UNIX widely known and popular. The 
+machine word size was 16 bits, and it was a general register architecture.
+
+
+C was first used as the systems language for the UNIX operating system (OS).
+
+KEN THOMPSON, the developer of UNIX, had been using both an assembler and a language name B to produce initial versions of UNIX in 1970.
+
+C was invented to overcome the limitations of B.
+
+
+0.1_WHY_C
+
+C is a small language;
+C is very portable;
+C is terse;
+
+C has a *built-in preprocessor that helps a programmer isolate any 
+system-dependent code.
+
+*The C preprocessor (CPP) is a text file processor that is used with C, C++
+and other programming tools. The preprocessor provides for file inclusion
+(often header files), macro expansion, conditional compilation, and line 
+control. Although named in association with C and used with C, the 
+preprocessor capabilities are not inherently tied to the C language. It can
+and is used to process other kinds of files.
+
+The preprocessor was introduced to C around 1973 at the urging of Alan 
+Snyder and also in recognition of the usefulness of the file inclusion
+mechanisms available in BCPL and PL/I. The first version offered file 
+inclusion via #include and parameterless string replacement macros via
+#define. It was extended shortly after, firstly by Mike Lesk and then 
+by John Reser, to add arguments to macros and to support conditional 
+compilation.
+
+C has a very powerful set of operators, and some of these operators
+allow the programmer to access the machine at the bit level.
+
+The *increment operator ++ has a direct analogue in machine language on many 
+machines.
+
+* The increment operator (++) is used to increment the value of a variable
+in an expression by 1. It can be used on variables of the numeric type such 
+as integer, float, character, pointers, etc.
+
+
+*/

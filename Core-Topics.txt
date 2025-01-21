@@ -1,0 +1,48 @@
+//######################################################
+//Notes_1
+/*
+Some Noted Topics that can be used in conjunction with this book:
+
+-Comparative Programming Languages
+-Computational Linguistics
+-Data Structures
+-Database systems
+-Fractal geometry
+-Graphics
+-Numerical Analysis
+-Operating Systems
+-Programming methodology
+-Scientific Applications
+
+#######################################################
+Notes_2
+This book is also appropriate for learning data structures.
+Some Advanced Data Structuring Features will be covered such as:
+
+-Enumeration types
+-Unions
+-Self-referential structures
+-Ragged Arrays
+
+#######################################################
+Notes_3
+
+
+For operating systems (UNIX/WINDOWS 95/NT):
+
+-File structures and systems routines
+-Understanding Libraries
+
+#######################################################
+Notes_4
+
+For application programming and scientific programming:
+
+-There are some sections on how to write sample function libraries
+- Statistics, root finding, sorting, text manipulation, file handling,
+and game playing are all represented with working code.
+
+
+
+
+*/
