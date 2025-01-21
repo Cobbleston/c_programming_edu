@@ -30,7 +30,8 @@ int main (void) {
 	// ASCII control characters (range 00-31, plus 127)(32 is a space)
 	// ASCII control characters 00-31 do not have visible representations
 	// These were designed to control hardware devices
-    // Null character does not have a visible representation in the console when printed using standard output functions like 'printf'
+        // Null character does not have a visible representation in the console
+	// when printed using standard output functions like 'printf'
 	// int a = NULL; is considered bad code, hard to read
 	char i;
 	char ii = 127;
