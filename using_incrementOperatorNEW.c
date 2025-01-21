@@ -30,8 +30,8 @@ int main (void) {
 	// ASCII control characters (range 00-31, plus 127)(32 is a space)
 	// ASCII control characters 00-31 do not have visible representations
 	// These were designed to control hardware devices
-    // Null character does not have a visible representation in the console 
-    // when printed using standard output functions like 'printf'
+        // Null character does not have a visible representation in the console 
+        // when printed using standard output functions like 'printf'
 	// int a = NULL; is considered bad code, hard to read
 	char i;
 	char ii = 127;
@@ -102,8 +102,8 @@ int main (void) {
 	printf("Examples of ASCII Values beyond 127 (127 is control character DEL):\n"); // 127 is used for DEL
 	printf("*programmers will need to check their systems:\n\n");
     
-    // Challenge: Try to construct an array of these know characters in 
-    // Windows 11 Default Terminal App
+        // Challenge: Try to construct an array of these know characters in 
+        // Windows 11 Default Terminal App
     
 	printf("\n\n");
 
@@ -121,21 +121,21 @@ int main (void) {
 	printf(" using ++, character Z will become character  %c \n", Z_);
 	printf(" using ++, character z will become character %c \n\n", z_);
 
-    // Using malloc and realloc, do not edit this
-    int * numbers = malloc(6*sizeof(int));
-    for(int iii = 0; iii < 6; ++iii) {
+        // Using malloc and realloc, do not edit this
+        int * numbers = malloc(6*sizeof(int));
+        for(int iii = 0; iii < 6; ++iii) {
         numbers[iii] = 5;
-    }
-    numbers = realloc(numbers, 7*sizeof(*numbers));
-    if(!numbers) {
+        }
+        numbers = realloc(numbers, 7*sizeof(*numbers));
+        if(!numbers) {
         printf("Memory allocation failed, sorry, try again!\n");
         exit(1);
-    }
-    numbers[6] = 7;
-    for(int iii = 0; iii< 7; ++iii) {
+        }
+        numbers[6] = 7;
+        for(int iii = 0; iii< 7; ++iii) {
         printf("%d\n", numbers[iii]);
-    }
-    free(numbers);
+        }
+        free(numbers);
 
 	printf("\n");
 
