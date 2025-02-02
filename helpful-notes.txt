@@ -1,0 +1,12 @@
+Choose a Graphics Library:
+
+Several good options exist:
+
+SDL (Simple DirectMedia Layer): Cross-platform, relatively easy to learn, good for 2D games.
+SFML (Simple and Fast Multimedia Library): Similar to SDL, object-oriented, also cross-platform.
+GLFW: Focuses on window management and input, often used with OpenGL.
+OpenGL/Vulkan/DirectX: For more advanced 3D graphics
+GUI Libraries (Qt, GTK): Can be used for graphics, but are generally better suited for applications rather than games.
+
+# how to install SDL
+sudo dnf install SDL2-devel
